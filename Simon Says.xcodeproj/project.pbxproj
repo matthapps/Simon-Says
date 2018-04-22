@@ -12,6 +12,7 @@
 		841525AA208C1DFC00BA50B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841525A8208C1DFC00BA50B7 /* Main.storyboard */; };
 		841525AC208C1E0300BA50B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841525AB208C1E0300BA50B7 /* Assets.xcassets */; };
 		841525AF208C1E0300BA50B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841525AD208C1E0300BA50B7 /* LaunchScreen.storyboard */; };
+		841525B7208C286400BA50B7 /* Circular Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841525B6208C286400BA50B7 /* Circular Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		841525AB208C1E0300BA50B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841525AE208C1E0300BA50B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841525B0208C1E0300BA50B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841525B6208C286400BA50B7 /* Circular Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circular Button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				841525AB208C1E0300BA50B7 /* Assets.xcassets */,
 				841525AD208C1E0300BA50B7 /* LaunchScreen.storyboard */,
 				841525B0208C1E0300BA50B7 /* Info.plist */,
+				841525B6208C286400BA50B7 /* Circular Button.swift */,
 			);
 			path = "Simon Says";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841525B7208C286400BA50B7 /* Circular Button.swift in Sources */,
 				841525A7208C1DFC00BA50B7 /* ViewController.swift in Sources */,
 				841525A5208C1DFC00BA50B7 /* AppDelegate.swift in Sources */,
 			);
